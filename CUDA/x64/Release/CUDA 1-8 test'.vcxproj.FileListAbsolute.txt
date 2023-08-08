@@ -1,0 +1,2 @@
+C:\Users\31745\source\repos\CUDA 1-8 test\x64\Release\CUDA.exe
+C:\Users\31745\source\repos\CUDAMatrixMul\x64\Release\CUDA.exe

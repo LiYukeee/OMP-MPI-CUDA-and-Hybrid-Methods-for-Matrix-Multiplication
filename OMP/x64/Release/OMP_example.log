@@ -1,0 +1,10 @@
+﻿  main.cpp
+D:\FILES\并行计算\大作业\code\OMP\main.cpp(56,5): warning C4305: “参数”: 从“double”到“float”截断
+  Matrix.cpp
+D:\FILES\并行计算\大作业\code\OMP\Matrix.cpp(35,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  OMPMatrixMul.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 27 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  OMP_example.vcxproj -> D:\FILES\并行计算\大作业\code\OMP\x64\Release\OMPMatrixMul.exe

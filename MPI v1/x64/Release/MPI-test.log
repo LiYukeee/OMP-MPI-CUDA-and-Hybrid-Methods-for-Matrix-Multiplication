@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\FILES\并行计算\大作业\code\MPI v1\main.cpp(26,13): warning C4101: “status”: 未引用的局部变量
+  Matrix.cpp
+D:\FILES\并行计算\大作业\code\MPI v1\Matrix.cpp(35,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 340 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  MPI-test.vcxproj -> D:\FILES\并行计算\大作业\code\MPI v1\x64\Release\MPI.exe

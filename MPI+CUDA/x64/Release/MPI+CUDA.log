@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\31745\source\repos\MPI+CUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o C:\Users\31745\source\repos\MPI+CUDA\x64\Release\main.cu.obj "C:\Users\31745\source\repos\MPI+CUDA\main.cu" 
+C:\Users\31745\source\repos\MPI+CUDA\main.cu(79): warning #177-D: variable "tn" was declared but never referenced
+  
+C:\Users\31745\source\repos\MPI+CUDA\main.cu(57): warning #177-D: variable "status" was declared but never referenced
+  
+  main.cu
+C:\Users\31745\source\repos\MPI+CUDA\cudaMatrixMul.cuh(72): warning C4244: “=”: 从“clock_t”转换到“float”，可能丢失数据
+C:\Users\31745\source\repos\MPI+CUDA\cudaMatrixMul.cuh(81): warning C4244: “=”: 从“clock_t”转换到“float”，可能丢失数据
+C:\Users\31745\source\repos\MPI+CUDA\cudaMatrixMul.cuh(68): warning C4996: 'cudaThreadSynchronize': 被声明为已否决
+C:\Users\31745\source\repos\MPI+CUDA\cudaMatrixMul.cuh(224): warning C4244: “=”: 从“clock_t”转换到“float”，可能丢失数据
+C:\Users\31745\source\repos\MPI+CUDA\cudaMatrixMul.cuh(229): warning C4244: “=”: 从“clock_t”转换到“float”，可能丢失数据
+C:\Users\31745\source\repos\MPI+CUDA\main.cu(57): warning C4101: “status”: 未引用的局部变量
+C:\Users\31745\source\repos\MPI+CUDA\main.cu(79): warning C4101: “tn”: 未引用的局部变量
+    正在创建库 C:\Users\31745\source\repos\MPI+CUDA\x64\Release\MPI+CUDA.lib 和对象 C:\Users\31745\source\repos\MPI+CUDA\x64\Release\MPI+CUDA.exp
+  0 of 11 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+  已完成代码的生成
+  MPI+CUDA.vcxproj -> C:\Users\31745\source\repos\MPI+CUDA\x64\Release\MPI+CUDA.exe
